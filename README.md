@@ -1,5 +1,5 @@
 <h1 align='center'>
-    <img src='/spacetraveling.png' width="50" >
+    <img src='public/spacetraveling.png' width="50" >
     Space Traveling
 </h1>
 
