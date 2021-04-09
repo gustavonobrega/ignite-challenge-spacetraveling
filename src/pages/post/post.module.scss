@@ -35,6 +35,14 @@
     }
   }
 
+  span {
+    display: block;
+    font-size: 0.875rem;
+    font-style: italic;
+    margin-top: 1.125rem;
+    color: var(--gray-300);
+  }
+
   article {
     margin-top: 4.125rem;
 
@@ -49,7 +57,7 @@
 .postContent {
   margin-top: 2rem;
 
-  p, span, a{
+  p, a{
     text-align: justify;
     font-size:1.125rem;
     color: var(--gray-300);
@@ -60,5 +68,36 @@
   a {
     color:var(--rose-500)
   }
+}
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+
+  border-top: 1px solid var(--gray-300);
+  margin: 4rem 0;
+
+  p {
+    font-size: 1.125rem;
+    color: var(--gray-100);
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    font-size: 1rem;
+    color: var(--rose-500);
+    transition: 0.2s;
+  }
+
+  a:hover {
+    filter: brightness(0.8);
+  }
+
+  div {
+    margin-top: 3rem;
+
+    & + div{
+      text-align: right;
+    }
+  }
 }
