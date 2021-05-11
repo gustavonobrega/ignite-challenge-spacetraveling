@@ -48,7 +48,7 @@ $ cd ignite-challenge-spacetraveling
 $ yarn
 
 # Run the app
-$ yarn start
+$ yarn dev
 ```
 
 ---
